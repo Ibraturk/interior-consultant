@@ -1,0 +1,106 @@
+:root{
+    --white: #FFFFFF;
+    --black: #000000;
+    --text-black: #333333;
+    --text-gray: #4F4F4F;
+    --text-footer: #BDBDBD;
+    --font-Aboreto: 'Aboreto', cursive;
+    --font-Crimson: 'Crimson Pro', serif;
+    --font-Lora: 'Lora', serif;
+    --font-Montserrat: 'Montserrat', sans-serif;
+
+    }
+
+*{
+    box-sizing: border-box;
+    margin: 0; 
+    text-align: start;
+    padding: 0;
+}
+    
+html{
+    font-size: 62.5%;
+    font-family: 'Montserrat', sans-serif;  
+    background-color: #181719;
+    color: #FFFFFF;
+}
+header {
+    width: 100%;
+    min-width: 320px;
+
+}
+
+
+/* Nabvar */
+.navbar-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+    min-width: 300px;
+    margin-top: 24px;
+    margin-left: 12px;
+    
+}
+.navbar-container p {
+    padding: 8px;
+    border: 1px solid white;
+    font-family:var(--font-Crimson);
+    font-size: 1.4rem;
+    font-weight: 200;
+    line-height: 1.6rem;
+    letter-spacing: 0em;
+}
+
+/* Burguer menu */
+.burguer-menu
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+
+/* Main title container */
+
+.main-title-container{
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: auto;
+    min-width: 300px;
+    margin-top:38px;
+    margin-bottom: 25px;
+    padding-left: 12px;
+}
+.title-card-container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    min-width: 250px;
+    max-width: 410px;
+}
+.title-card-container h1 {
+    margin-bottom: 25px;
+    font-family: var(--font-Lora);
+    font-size: 2.9rem;
+    font-weight: bold;
+    line-height: 4.6rem;
+}
+.title-card-container p {
+    margin-bottom: 25px;
+    font-size: 1.4rem;
+    font-weight: 400;
+    line-height: 1.7rem;
+
+}
+.title-card-container .read-more-ca {
+font-size: 1.4rem;
+font-weight: bold;
+line-height: 1.7rem;
+text-decoration: none;
+color: white;
+}
+
