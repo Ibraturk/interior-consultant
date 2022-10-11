@@ -7,7 +7,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://ibraturk.github.io/interior-consultant/">
+    <a href="https://ibra-gragirena.github.io/interior-consultant/">
       Demo
     </a>
     <span> | </span>
